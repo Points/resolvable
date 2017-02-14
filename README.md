@@ -1,3 +1,24 @@
+# This is forked from github.com/kevinjqiu/resolvable which is a fork of gliderlabs/resolvable.
+This fork adds the ability to modify `/etc/hosts` file when a docker container starts or stops.
+
+## Build
+
+	make build-scratch
+
+## Push
+
+	make push-scratch
+
+## Run
+
+	docker run -e RESOLVABLE_RESOLVER_TYPE=<resolver_type> \
+		-v /etc/hosts:/etc/hosts \
+		-v /etc/resolv.conf:/tmp/resolv.conf \
+		dev-docker.points.com/resolvable
+
+where `<resolver_type>` can be either: `dns` or `hostsfile`
+
+
 # Resolvable - Docker DNS resolver
 
 A simple DNS server to resolve names of local Docker containers.

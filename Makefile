@@ -21,6 +21,9 @@ build-scratch:
 	govendor build -o resolvable
 	docker build -t dev-docker.points.com/resolvable -f Dockerfile.scratch .
 
+push-scratch: build-scratch
+	docker push dev-docker.points.com/resolvable
+
 test:
 	GOMAXPROCS=4 go test -v ./... -race
 
