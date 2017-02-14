@@ -19,7 +19,7 @@ build:
 
 build-scratch:
 	govendor build -o resolvable
-	docker build -t kevinjqiu/resolvable -f Dockerfile.scratch .
+	docker build -t dev-docker.points.com/resolvable -f Dockerfile.scratch .
 
 test:
 	GOMAXPROCS=4 go test -v ./... -race

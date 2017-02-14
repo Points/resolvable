@@ -1,6 +1,6 @@
 package main
 
 import (
-	_ "github.com/kevinjqiu/resolvable/resolver"
-	_ "github.com/kevinjqiu/resolvable/systemd"
+	_ "github.com/Points/resolvable/resolver"
+	_ "github.com/Points/resolvable/systemd"
 )

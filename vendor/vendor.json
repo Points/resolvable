@@ -147,6 +147,22 @@
 			"revisionTime": "2017-02-06T20:41:50Z"
 		},
 		{
+			"path": "github.com/Points/resolvable",
+			"revision": ""
+		},
+		{
+			"path": "github.com/Points/resolvable/dockerpool",
+			"revision": ""
+		},
+		{
+			"path": "github.com/Points/resolvable/resolver",
+			"revision": ""
+		},
+		{
+			"path": "github.com/Points/resolvable/systemd",
+			"revision": ""
+		},
+		{
 			"checksumSHA1": "fmtJPOSqioLxBve4Mz/dPpGMKmY=",
 			"origin": "github.com/kevinjqiu/resolvable/vendor/github.com/Sirupsen/logrus",
 			"path": "github.com/Sirupsen/logrus",
@@ -621,5 +637,5 @@
 			"revision": ""
 		}
 	],
-	"rootPath": "github.com/kevinjqiu/resolvable"
+	"rootPath": "github.com/Points/resolvable"
 }
